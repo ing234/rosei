@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our School Video</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: navy;
+            margin-bottom: 40px;
+        }
+
+        video {
+            border: 5px solid #4682b4;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            margin-top: 30px;
+        }
+
+        .main-content button {
+            background-color: gold;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .main-content button a {
+            color: green;
+            text-decoration: none;
+        }
+
+        .main-content button:hover {
+            background-color: darkorange;
+        }
+ /* Go Back button with lightcoral background */
+        button.go-back {
+            background-color: lightcoral; /* New color for Go Back button */
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button.go-back:hover {
+            background-color: darkred; /* Hover effect for Go Back button */
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>WELCOME TO MUTABARUKA's HIGH SCHOOL</h1>
+
+    <video width="1200" height="790" controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <br>
+<!-- Go Back button styled to match Next Page button -->
+    <button class="go-back"><a href="contact.html">Go Back</a></button>
+
+    <div class="main-content">
+        <button><a href="service.html">Next Page</a></button>
+    </div>
+
+</body>
+</html>

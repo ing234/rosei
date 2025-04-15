@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Document</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        a.nav-button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px;
+            background-color: gold;
+            color: green;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        table {
+            margin-top: 20px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin: 20px;
+            color: orange; /* Title 1 color */
+        }
+
+        h2 {
+            margin: 20px;
+            color: lightgreen; /* Title 2 color */
+        }
+
+        td:nth-of-type(1):nth-child(1),
+        td:nth-of-type(2):nth-child(2) {
+            color: yellow; /* Captions under images row 1 */
+        }
+
+        td:nth-of-type(1):nth-child(3),
+        td:nth-of-type(2):nth-child(4) {
+            color: lightcoral; /* Captions under images row 2 */
+        }
+
+        p {
+            margin: 20px;
+            color: white; /* Paragraphs stay white */
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        Welcome to <strong>MUTABARUKA's HIGH SCHOOL</strong>, located in GICUMBI District.<br>
+        <strong>OUR SCHOOL MISSION:</strong> To provide a nurturing environment where students grow academically, socially, and emotionally. 
+        We offer a rigorous curriculum, a diverse range of extracurricular activities, and modern facilities designed to support student success.
+        At MUTABARUKA's HIGH SCHOOL, we foster a sense of community, where each student’s uniqueness is celebrated.
+        Join us and experience a school that prepares students for the challenges of tomorrow!
+    </p>
+
+    <img src="image/student.jpeg" alt="Students" width="600px">
+
+    <h1>Our School Information</h1>
+    <img src="photo.jpg" alt="School" width="600px">
+
+    <p>In our school, we admit all students – both boys and girls.</p>
+
+    <h2>At MUTABARUKA's HIGH SCHOOL, we have many things such as:</h2>
+
+    <table>
+        <tr>
+            <td><img src="index/house.jpeg" width="600px" height="400px" alt="Buildings"></td>
+            <td><img src="index/park.jpeg" width="600px" height="400px" alt="Park"></td>
+        </tr>
+        <tr>
+            <td style="color: yellow;">Many buildings</td>
+            <td style="color: yellow;">Parking</td>
+        </tr>
+        <tr>
+            <td><img src="index/library.jpeg" width="600px" height="400px" alt="Library"></td>
+            <td><img src="webpage/basketball.jpeg" width="600px" height="400px" alt="Basketball Court"></td>
+        </tr>
+        <tr>
+            <td style="color: lightcoral;">Library</td>
+            <td style="color: lightcoral;">Basketball</td>
+        </tr>
+    </table>
+
+    <div class="main-content">
+        <a href="department.html" class="nav-button">Next Page</a>
+    </div>
+    <h2><a href="index.html">go back</a></h2>
+</body>
+</html>
